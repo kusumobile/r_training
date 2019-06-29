@@ -1,0 +1,36 @@
+2019-06-29 22:19:13.715 JST [40056] LOG:  listening on IPv6 address "::1", port 5432
+2019-06-29 22:19:13.715 JST [40056] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-06-29 22:19:13.716 JST [40056] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-06-29 22:19:13.728 JST [40057] LOG:  database system was shut down at 2019-06-29 22:18:58 JST
+2019-06-29 22:19:13.732 JST [40056] LOG:  database system is ready to accept connections
+2019-06-29 22:21:29.231 JST [40166] FATAL:  lock file "postmaster.pid" already exists
+2019-06-29 22:21:29.231 JST [40166] HINT:  Is another postmaster (PID 40056) running in data directory "/Users/kusumobile/git/r_training/db/./pgdb"?
+2019-06-29 22:38:30.200 JST [40247] ERROR:  relation "users" does not exist at character 15
+2019-06-29 22:38:30.200 JST [40247] STATEMENT:  select * from users;
+2019-06-29 22:38:43.334 JST [40247] ERROR:  syntax error at or near ";" at character 19
+2019-06-29 22:38:43.334 JST [40247] STATEMENT:  create table users;
+2019-06-29 22:40:35.239 JST [40247] ERROR:  syntax error at or near "sys" at character 1
+2019-06-29 22:40:35.239 JST [40247] STATEMENT:  sys.sysobjects
+	;
+2019-06-29 22:41:00.507 JST [40247] ERROR:  relation "sysobjects" does not exist at character 15
+2019-06-29 22:41:00.507 JST [40247] STATEMENT:  select * from sysobjects;
+2019-06-29 22:41:19.637 JST [40247] ERROR:  relation "information_schema" does not exist at character 15
+2019-06-29 22:41:19.637 JST [40247] STATEMENT:  select * from information_schema;
+2019-06-29 22:58:43.994 JST [40247] ERROR:  relation "users" does not exist at character 15
+2019-06-29 22:58:43.994 JST [40247] STATEMENT:  select * from users;
+2019-06-29 22:59:14.965 JST [40247] ERROR:  relation "article" does not exist at character 15
+2019-06-29 22:59:14.965 JST [40247] STATEMENT:  select * from article;
+2019-06-29 22:59:31.301 JST [40247] ERROR:  relation "articles" does not exist at character 15
+2019-06-29 22:59:31.301 JST [40247] STATEMENT:  select * from articles;
+2019-06-29 22:59:40.121 JST [40247] ERROR:  relation "users" does not exist at character 15
+2019-06-29 22:59:40.121 JST [40247] STATEMENT:  select * from users;
+2019-06-29 22:59:51.832 JST [40247] ERROR:  syntax error at or near ";" at character 19
+2019-06-29 22:59:51.832 JST [40247] STATEMENT:  create table users;
+2019-06-29 23:33:14.260 JST [43467] ERROR:  database "r_training_development" already exists
+2019-06-29 23:33:14.260 JST [43467] STATEMENT:  CREATE DATABASE "r_training_development" ENCODING = 'unicode'
+2019-06-29 23:33:14.286 JST [43468] ERROR:  database "r_training_test" already exists
+2019-06-29 23:33:14.286 JST [43468] STATEMENT:  CREATE DATABASE "r_training_test" ENCODING = 'unicode'
+2019-06-29 23:38:36.321 JST [43622] ERROR:  database "r_training_development" already exists
+2019-06-29 23:38:36.321 JST [43622] STATEMENT:  CREATE DATABASE "r_training_development" ENCODING = 'unicode'
+2019-06-29 23:38:36.344 JST [43623] ERROR:  database "r_training_test" already exists
+2019-06-29 23:38:36.344 JST [43623] STATEMENT:  CREATE DATABASE "r_training_test" ENCODING = 'unicode'
